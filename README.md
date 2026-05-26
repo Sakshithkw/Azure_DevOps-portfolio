@@ -1,6 +1,3 @@
-# Azure_DevOps-portfolio
-DevOps assignments and projects
-
 # Azure DevOps Portfolio
 
 DevOps assignments and projects from grras training course.
