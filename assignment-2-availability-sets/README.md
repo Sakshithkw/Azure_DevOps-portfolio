@@ -11,7 +11,7 @@ Create Availability Sets for high availability, add user data scripts for automa
 - Name: myRG
 - Region: Central India
 
-[Screenshot](./screenshots/01-availability-set.png)
+[Screenshot](01-availability-set.png)
 
 ---
 
@@ -22,7 +22,7 @@ Create Availability Sets for high availability, add user data scripts for automa
 
 **Purpose**: Distribute VMs across physical servers
 
-[Screenshot](./screenshots/02-vm-creation.png)
+[Screenshot](02-vm-creation.png)
 
 ---
 
@@ -32,7 +32,7 @@ Create Availability Sets for high availability, add user data scripts for automa
 - Availability Set: myAS
 - Size: Standard_B1s → B2als_v2
 
-[Screenshot](./screenshots/02-vm-creation_completion.png)
+[Screenshot](02-vm-creation_completion.png)
 
 ---
 
@@ -45,7 +45,7 @@ useradd sakshi
 
 Automatically creates users at startup.
 
-[Screenshot](./screenshots/03-script-verification.png)
+[Screenshot](03-script-verification.png)
 
 ---
 
@@ -62,14 +62,14 @@ sakshi:x:1002:1002::/home/sakshi:/bin/bash
 ### Step 6: Reset Password
 Reset azureuser password via Azure Portal.
 
-[Screenshot](./screenshots/04-password-reset.png)
+[Screenshot](04-password-reset.png)
 
 ---
 
 ### Step 7: Changed Instance Size
 Resized from B1s to B2als_v2 (2 vCPUs, 4 GiB RAM).
 
-[Screenshot](./screenshots/05-instance-size-change.png)
+[Screenshot](05-instance-size-change.png)
 
 ---
 
