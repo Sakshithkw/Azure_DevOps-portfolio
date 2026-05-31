@@ -11,7 +11,7 @@ Deploy a Linux virtual machine on Azure, install Apache web server, and host a c
 - Name: RG-Practice-VM
 - Region: Central India
 
-[Screenshot](./01-resource-group-created.png)
+[Screenshot](01-resource-group-created.png)
 
 ---
 
@@ -21,35 +21,35 @@ Deploy a Linux virtual machine on Azure, install Apache web server, and host a c
 - Public IP: Enabled
 - NSG Rules: SSH (22) + HTTP (80)
 
-[Screenshot](./02-vm-overview.png)
+[Screenshot](02-vm-overview.png)
 
 ---
 
 ### Step 3: SSH Connection
 Connected via SSH using PEM key authentication.
 
-[Screenshot](./03-ssh-login-success.png)
+[Screenshot](03-ssh-login-success.png)
 
 ---
 
 ### Step 4: Installed Apache
 Installed and configured Apache2 web server.
 
-[Screenshot](./04-apache-status.png)
+[Screenshot](04-apache-status.png)
 
 ---
 
 ### Step 5: Created Website
 Deployed custom HTML website.
 
-[Screenshot](./05-html-code.png)
+[Screenshot](05-html-code.png)
 
 ---
 
 ### Step 6: Website Live
 Website accessible via public IP.
 
-[Screenshot](./06-website-live.png)
+[Screenshot](06-website-live.png)
 
 ---
 
